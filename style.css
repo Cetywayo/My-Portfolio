@@ -1,3 +1,20 @@
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 60%; background-color: #4CAF50;}
+.css {width: 50%; background-color: #2196F3;}
+.js {width: 40%; background-color: #f44336;}
+.bootstrap {width: 50%; background-color: #4CAF50;}
+.github {width: 45%; background-color: #2196F3;}
+.dom {width: 30%; background-color: #f44336;}
+
+
+
+
 .pic.col-4 img {
     border-radius: 50%;
 }
