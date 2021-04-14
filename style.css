@@ -1,0 +1,99 @@
+.pic.col-4 img {
+    border-radius: 50%;
+}
+
+p, h2, h1, h3,h4,h5, h5{
+    
+        font-family: Arial, Helvetica, sans-serif;
+      }
+.section-one {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .section-two {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    body{
+        background-color: mintcream;
+    }
+
+    .section-three {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .section-front {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+
+    .names.col-4 h2 {
+        font-size: 25px;
+        font-weight: 800;
+        margin-top: 31px;
+    
+    }
+
+    .button {
+        transition-duration: 0.4s;
+      }
+      
+      .button:hover {
+        background-color: #7c50e2; /* Green */
+        color: white;
+      }
+
+    .button {
+        background-color: #4c9baf; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    
+      }
+      a {
+        /* color: #0d6efd; */
+        text-decoration: none;
+    }
+
+   /* a:active {
+        background-color: yellow;
+      } */
+
+
+      .frontend  img {
+           
+        width: 280px;
+      }
+
+
+
+    /*responsive*/
+
+    @media only screen and (min-device-width : 320px) and (max-device-width : 800px) {
+        
+    .col-4 {
+    
+        width: 100%;
+    }
+
+    .col-3 {
+    
+        width: 100%;
+    }
+    
+    .col-6{
+    
+      width: 50%;
+  }
+
+ }
