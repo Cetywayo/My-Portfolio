@@ -22,12 +22,17 @@
 
 .section-four p{
   color: beige;
+  text-align: center;
+}
+
+.column a {
+  color: #60c1ed;
 }
 
 .section-four {
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #333447;
+  background-color: #60c1ed;
   text-align: center;
 }
 
