@@ -1,3 +1,18 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+
 .skills {
   text-align: right;
   padding-top: 10px;
@@ -5,10 +20,21 @@
   color: white;
 }
 
+.section-four p{
+  color: beige;
+}
+
+.section-four {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #333447;
+  text-align: center;
+}
+
 .html {width: 60%; background-color: #4CAF50;}
 .css {width: 50%; background-color: #2196F3;}
-.js {width: 40%; background-color: #f44336;}
-.bootstrap {width: 50%; background-color: #4CAF50;}
+.js {width: 40%; background-color: #4CAF50;}
+.bootstrap {width: 50%; background-color: #f44336;}
 .github {width: 45%; background-color: #2196F3;}
 .dom {width: 30%; background-color: #f44336;}
 
